@@ -1,7 +1,7 @@
 package application;
 
 public class Program {
-    static void main() {
+    public static void main(String[] args) {
 
     }
 }
