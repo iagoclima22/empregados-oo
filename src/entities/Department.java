@@ -44,6 +44,10 @@ public class Department {
         this.address = address;
     }
 
+    public List<Employee> getEmployees() {
+        return employees;
+    }
+
     public void addEmployee(Employee employee) {
         employees.add(employee);
     }
