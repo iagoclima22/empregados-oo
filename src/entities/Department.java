@@ -52,7 +52,7 @@ public class Department {
         employees.add(employee);
     }
 
-    public void revomeEmployee(Employee employee) {
+    public void removeEmployee(Employee employee) {
         employees.remove(employee);
     }
 

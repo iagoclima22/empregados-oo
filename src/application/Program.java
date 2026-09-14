@@ -30,7 +30,7 @@ public class Program {
 
         for (int i = 0; i < n; i++) {
             sc.nextLine();
-            System.out.println("Dados do funcionários " + (i+1) + ":");
+            System.out.println("Dados do funcionário " + (i+1) + ":");
             System.out.print("Nome: ");
             String employeeName = sc.nextLine();
             System.out.print("Salário: ");
@@ -46,7 +46,7 @@ public class Program {
     }
 
     private static void showReport(Department department) {
-        System.out.println("Folha de pagamento:");
+        System.out.println("FOLHA DE PAGAMENTO:");
         System.out.printf("Departamento %s = R$ %.2f%n", department.getName(), department.payroll());
         System.out.println("Pagamento realizado no dia " + department.getPayDay());
         System.out.println("Funcionários:");
